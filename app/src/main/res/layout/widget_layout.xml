@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/widget_bg"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Odoo Quick Check"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#00FFF0" />
+
+    <TextView
+        android:id="@+id/widget_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: CHECK-OUT"
+        android:textSize="11sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:id="@+id/widget_toggle_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/widget_button_bg"
+        android:textColor="#0F2027"
+        android:text="KLIK CHECK-IN"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp" />
+</LinearLayout>

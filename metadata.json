@@ -1,0 +1,6 @@
+{
+  "name": "Odoo Absensi",
+  "description": "Asisten presensi Odoo otomatis dengan widget, notifikasi lockscreen, auto WiFi, dan auto lokasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
